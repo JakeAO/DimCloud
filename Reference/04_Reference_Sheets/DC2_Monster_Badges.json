@@ -1,0 +1,148 @@
+{
+  "badges": [
+    {
+      "name": "Flora (Himarra)",
+      "family": "Plant",
+      "method": "Story (Ch. 2)",
+      "baseForm": "Himarra",
+      "traversal": "None",
+      "skills": ["Seed Shot", "Vine Whip", "Photosynthesis (Heal)"],
+      "evo1": ["Mandora (Atk)", "Scarecrow (Def)"],
+      "evo2Condition": "Mandora: Kill 50 Plants | Scarecrow: 50 Vine Whip Kills"
+    },
+    {
+      "name": "Beast",
+      "family": "Beast",
+      "method": "Gift Capsule",
+      "targets": {"Sewer Rat": "Underground Channel F1", "Ram": "Starlight Canyon F1"},
+      "capsuleItem": {"Sewer Rat": "Cheese ×3", "Ram": "Premium Chicken ×3"},
+      "baseForm": "Sewer Rat",
+      "traversal": "None",
+      "skills": ["Bite", "Dash", "Squeak (Stun)"],
+      "evo1": ["Were Rat", "Rat King"],
+      "evo2Condition": "Were Rat: Kill 100 Beasts"
+    },
+    {
+      "name": "Aquatic",
+      "family": "Aquatic",
+      "method": "Gift Capsule",
+      "targets": {"Froggy": "Underground Channel F1", "Goyone": "Ocean's Roar Cave F2"},
+      "capsuleItem": {"Froggy": "Battan ×3", "Goyone": "Evy ×3"},
+      "baseForm": "Froggy",
+      "traversal": "Swim (Underwater)",
+      "skills": ["Tongue Lash", "Bubble", "Leap"],
+      "evo1": ["Frog Prince", "Toad Master"],
+      "evo2Condition": "Frog Prince: Catch 20 Fish as Froggy"
+    },
+    {
+      "name": "Magical",
+      "family": "Construct",
+      "method": "Gift Capsule",
+      "target": "Statue (Ocean's Roar Cave F2)",
+      "capsuleItem": "Sturdy Rock ×3",
+      "baseForm": "Statue",
+      "traversal": "None",
+      "skills": ["Rock Throw", "Fortify", "Laser Eye"],
+      "evo1": ["Golem", "Colossus"]
+    },
+    {
+      "name": "Darkling",
+      "family": "Demon",
+      "method": "Gift Capsule",
+      "target": "Spider Lady (Rainbow Butterfly Wood F8)",
+      "capsuleItem": "Gold Bar ×3",
+      "baseForm": "Spider Lady",
+      "traversal": "Wall Climb",
+      "skills": ["Web Trap", "Venom", "Shadow Step"],
+      "evo1": ["Arachne", "Widow"]
+    },
+    {
+      "name": "Reptile",
+      "family": "Reptile",
+      "method": "Gift Capsule",
+      "target": "Wind Gemron (Starlight Canyon F4)",
+      "capsuleItem": "Wind Element ×3",
+      "baseForm": "Wind Gemron",
+      "traversal": "Float/Glide",
+      "skills": ["Wind Slash", "Cyclone", "Feather Guard"],
+      "evo1": ["Wyvern", "Basilisk"]
+    },
+    {
+      "name": "Spirit",
+      "family": "Spirit",
+      "method": "Gift Capsule",
+      "target": "Pixie (Rainbow Butterfly Wood F7)",
+      "capsuleItem": "Gooey Peach ×3",
+      "baseForm": "Pixie",
+      "traversal": "Fly (Limited)",
+      "skills": ["Fairy Dust", "Heal Wind", "Confuse"],
+      "evo1": ["Sylph", "Fairy Queen"],
+      "tier": "S"
+    },
+    {
+      "name": "Undead",
+      "family": "Undead",
+      "method": "Special Kill",
+      "target": "Skeleton Soldier (Rainbow Butterfly Wood F1)",
+      "condition": "Kill with Holy Water",
+      "baseForm": "Skeleton",
+      "traversal": "None",
+      "skills": ["Bone Throw", "Life Drain", "Curse"],
+      "evo1": ["Lich", "Death Knight"]
+    },
+    {
+      "name": "Card",
+      "family": "Trickster",
+      "method": "Gift Capsule",
+      "target": "Diamond Card Enemy (Moon Flower Palace F2)",
+      "capsuleItem": "Diamond ×3",
+      "baseForm": "Diamond",
+      "traversal": "Short Teleport",
+      "skills": ["Card Shuffle", "Joker", "Royal Flush"],
+      "evo1": ["Ace", "Joker"]
+    },
+    {
+      "name": "Windup",
+      "family": "Machine",
+      "method": "Special Kill",
+      "target": "Bomber Head (Mt. Gundor F7)",
+      "condition": "Kill with Bomb",
+      "baseForm": "Bomber Head",
+      "traversal": "None",
+      "skills": ["Self-Destruct", "Rocket Punch", "Scrap Heal"],
+      "evo1": ["Mecha", "Titan"]
+    },
+    {
+      "name": "Moon Badge",
+      "method": "Donny @ Photo Level 7 (600 pts)",
+      "effect": "Transform Duration +50% (180s → 270s)",
+      "slot": "Meta Badge (Separate)"
+    },
+    {
+      "name": "Sun Badge",
+      "method": "Donny @ Photo Level 8 (700 pts)",
+      "effect": "Transform Atk +30%, Def +20%",
+      "slot": "Meta Badge (Separate)"
+    }
+  ],
+  "badgeLeveling": {
+    "absSource": "Kills While Transformed (100%) / Monica with Badge Equipped (50%)",
+    "levelBenefits": {
+      "1-4": "Stat Increases",
+      "5": "Evolution 1 Available",
+      "6-14": "Higher Stats + New Skills",
+      "15": "Evolution 2 Available (Conditional)",
+      "20": "Ultimate Form"
+    }
+  },
+  "traversalUtility": {
+    "RequiredFor100Percent": ["Aquatic (Swim)", "Reptile (Glide)", "Spirit (Fly)", "Darkling (Climb)"],
+    "CombatTiers": {
+      "S": ["Spirit", "Aquatic"],
+      "A": ["Reptile", "Darkling"],
+      "B": ["Flora", "Beast"],
+      "C": ["Magical", "Undead"],
+      "D": ["Card", "Windup"]
+    }
+  }
+}

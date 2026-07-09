@@ -1,0 +1,67 @@
+{
+  "game": "Dark Cloud 1",
+  "weaponAttributes": [
+    {"id": "ATK", "name": "Attack", "desc": "Base physical damage"},
+    {"id": "DUR", "name": "Durability", "desc": "Max WHP / decay resistance"},
+    {"id": "FLA", "name": "Flame", "desc": "Fire elemental damage"},
+    {"id": "CHI", "name": "Chill", "desc": "Ice elemental damage"},
+    {"id": "LIG", "name": "Lightning", "desc": "Lightning elemental damage"},
+    {"id": "CYC", "name": "Cyclone", "desc": "Wind damage (vs Flying)"},
+    {"id": "SMA", "name": "Smash", "desc": "Bonus vs Armored (Turtle/Golem)"},
+    {"id": "EXO", "name": "Exorcism", "desc": "Bonus vs Undead"},
+    {"id": "BEA", "name": "Beast", "desc": "Bonus vs Beasts"},
+    {"id": "SCA", "name": "Scale", "desc": "Bonus vs Dragons/Reptiles"}
+  ],
+  "attachmentTypes": {
+    "StatCrystals": [
+      {"name": "Power Crystal", "atk": 3, "cost": 1},
+      {"name": "Endurance Crystal", "dur": 5, "cost": 1},
+      {"name": "Speed Crystal", "spd": 2, "cost": 1}
+    ],
+    "ElementalCrystals": [
+      {"name": "Fire Crystal", "fla": 5, "cost": 1},
+      {"name": "Ice Crystal", "chi": 5, "cost": 1},
+      {"name": "Lightning Crystal", "lig": 5, "cost": 1},
+      {"name": "Wind Crystal", "cyc": 5, "cost": 1},
+      {"name": "Holy Crystal", "exo": 5, "cost": 1}
+    ],
+    "AntiTypeCrystals": [
+      {"name": "Beast Crystal", "bea": 10, "cost": 1},
+      {"name": "Scale Crystal", "sca": 10, "cost": 1},
+      {"name": "Exorcism Crystal", "exo": 10, "cost": 1},
+      {"name": "Smash Crystal", "sma": 10, "cost": 1},
+      {"name": "Cyclone Crystal", "cyc": 10, "cost": 1}
+    ],
+    "Utility": [
+      {"name": "Abs Up", "effect": "ABS_GAIN_1.5X", "cost": 1},
+      {"name": "Steal", "effect": "ITEM_STEAL_CHANCE", "cost": 2},
+      {"name": "Critical", "effect": "CRIT_RATE_UP", "cost": 2},
+      {"name": "Knockback", "effect": "KNOCKBACK_ON_HIT", "cost": 1},
+      {"name": "Drain", "effect": "HP_DRAIN_ON_HIT", "cost": 2}
+    ]
+  },
+  "characterWeaponTypes": {
+    "Toan": "Sword",
+    "Xiao": "Slingshot",
+    "Goro": "Hammer",
+    "Ruby": "Ring",
+    "Ungaga": "Staff",
+    "Osmond": "Gun"
+  },
+  "synthSphere": {
+    "unlockLevel": 5,
+    "transferRate": 0.6,
+    "spCost": "equals_weapon_level"
+  },
+  "buildUp": {
+    "resetsLevel": true,
+    "keepsAbsorbedStats": true,
+    "branchingPaths": true
+  },
+  "durability": {
+    "whpLossPerHit": 1,
+    "whpLossPerCharge": 2,
+    "breakBehavior": "destroyed_jp_kept_overseas",
+    "repairItems": ["Repair Powder", "Gun Repair Powder", "Ring Repair Powder"]
+  }
+}

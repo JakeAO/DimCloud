@@ -1,0 +1,110 @@
+{
+  "characters": [
+    {
+      "name": "Toan",
+      "weapon": "Sword",
+      "range": "Melee",
+      "baseHP": 80,
+      "maxHP": 180,
+      "baseDef": 10,
+      "maxDef": 66,
+      "thirstRate": 1.0,
+      "traversal": "None (Atla Collector)",
+      "joinChapter": 1,
+      "mandatory": true,
+      "defenseItem": "Fluffy Doughnut",
+      "ultimateWeapons": ["Atlamillia Sword", "Chronicle Sword", "Sword of Zeus"],
+      "playstyle": "Balanced; best weapon variety; Spin Slash AoE"
+    },
+    {
+      "name": "Xiao",
+      "weapon": "Slingshot",
+      "range": "Ranged",
+      "baseHP": 60,
+      "maxHP": 140,
+      "baseDef": 8,
+      "maxDef": 64,
+      "thirstRate": 1.3,
+      "traversal": "Jump (Cross Gaps)",
+      "joinChapter": 1,
+      "mandatory": false,
+      "defenseItem": "Millefeuille",
+      "ultimateWeapons": ["Dragon's Y", "Flamingo Line"],
+      "playstyle": "Fast ranged; Jump solves traversal; Fragile"
+    },
+    {
+      "name": "Goro",
+      "weapon": "Hammer",
+      "range": "Melee",
+      "baseHP": 120,
+      "maxHP": 180,
+      "baseDef": 15,
+      "maxDef": 68,
+      "thirstRate": 0.8,
+      "traversal": "Break Rocks (Cracked Walls)",
+      "joinChapter": 2,
+      "mandatory": false,
+      "defenseItem": "Grass Cake",
+      "ultimateWeapons": ["Inferno", "Battle Axe Path"],
+      "playstyle": "Tank; High single-hit damage; Slow; Rock breaking essential"
+    },
+    {
+      "name": "Ruby",
+      "weapon": "Ring",
+      "range": "Ranged (Magic)",
+      "baseHP": 50,
+      "maxHP": 140,
+      "baseDef": 5,
+      "maxDef": 58,
+      "thirstRate": 1.5,
+      "traversal": "Float (Short Hover)",
+      "joinChapter": 3,
+      "mandatory": false,
+      "defenseItem": "Witch Parfait",
+      "ultimateWeapons": ["Holy Ring Line", "Elemental Rings"],
+      "playstyle": "Elemental magic; Very low WHP; Flight trivializes gaps; Weak DPS"
+    },
+    {
+      "name": "Ungaga",
+      "weapon": "Staff",
+      "range": "Melee (Reach)",
+      "baseHP": 100,
+      "maxHP": 180,
+      "baseDef": 12,
+      "maxDef": 59,
+      "thirstRate": 1.0,
+      "traversal": "Sandwalk (Quicksand)",
+      "joinChapter": 4,
+      "mandatory": false,
+      "defenseItem": "Stamina Drink",
+      "ultimateWeapons": ["Sun Giant Staff", "Desert Wind"],
+      "playstyle": "Wide sweep; Reach advantage; Desert traversal; Solid tank"
+    },
+    {
+      "name": "Osmond",
+      "weapon": "Gun",
+      "range": "Ranged",
+      "baseHP": 70,
+      "maxHP": 160,
+      "baseDef": 10,
+      "maxDef": 60,
+      "thirstRate": 1.2,
+      "traversal": "Unlock Doors (Shoot Switches)",
+      "joinChapter": 5,
+      "mandatory": false,
+      "defenseItem": "Carrot Cookie",
+      "ultimateWeapons": ["Ultimate Gun Line", "Blaster"],
+      "playstyle": "Highest ranged DPS; Ammo = WHP; Late join; Door skipping"
+    }
+  ],
+  "statItems": {
+    "fruitOfEden": {"effect": "+10 Max HP", "totalInGame": 50, "neededForAllMax": 60, "shortfall": 10},
+    "gourd": {"effect": "+1 Max Thirst (All Chars)", "totalInGame": 15, "cap": 10},
+    "pocket": {"effect": "+10 Inventory Slots", "totalInGame": 10},
+    "defenseItems": {"perChar": 12, "rollRange": [5,7], "saveScumForMax": true}
+  },
+  "recommendedParty": {
+    "core4": ["Toan", "Goro", "Ungaga", "Osmond"],
+    "notes": "Skip Xiao (Ruby covers ranged) OR Skip Ruby (Xiao covers ranged). Toan mandatory."
+  }
+}

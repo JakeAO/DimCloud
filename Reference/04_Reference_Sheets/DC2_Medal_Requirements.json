@@ -1,0 +1,77 @@
+{
+  "medalSystem": {
+    "totalMedals": 396,
+    "totalFloors": 127,
+    "medalsPerFloorMax": 4,
+    "types": {
+      "TimeTrial": {
+        "count": 127,
+        "requirement": "Clear floor under target time",
+        "difficulty": "High Early → Low Late",
+        "bestStrategy": "Ridepod Propeller/Jet Hover + Donny (Auto-Unlock Doors)"
+      },
+      "Wipeout": {
+        "count": 127,
+        "requirement": "Defeat ALL enemies (variant per chapter)",
+        "variants": {
+          "Ch1": "All Monsters",
+          "Ch2": "All Monsters",
+          "Ch3": "All Monsters + Star Path",
+          "Ch4": "All Monsters + Star Path",
+          "Ch5": "All Monsters + Star Path",
+          "Ch7": "All Monsters",
+          "Ch8": "All Monsters"
+        }
+      },
+      "Spheda": {
+        "count": 119,
+        "requirement": "Repair Time Distortion on floor",
+        "availability": "Most floors Ch. 2-5, 7-8",
+        "saveStateRecommended": true
+      },
+      "Fishing": {
+        "count": 23,
+        "requirement": "Catch fish ≥ target length",
+        "availability": "Specific floors with fishing spots",
+        "RNGHeavy": true
+      },
+      "NoHeal": {
+        "requirement": "Clear floor without healing items",
+        "availability": "Variable per floor"
+      },
+      "WeaponSpecific": {
+        "requirement": "Clear using ONLY specified weapon type",
+        "types": ["Max Wrench", "Max Gun", "Steve", "Monica Sword", "Monica Armband"],
+        "availability": "Variable per floor"
+      }
+    },
+    "chapterBreakdown": [
+      {"chapter": 1, "area": "Underground Channel", "floors": 10, "timeTrial": 10, "wipeout": 10, "spheda": 0, "fishing": 0},
+      {"chapter": 2, "area": "Rainbow Butterfly Wood", "floors": 20, "timeTrial": 20, "wipeout": 20, "spheda": 10, "fishing": 10},
+      {"chapter": 3, "area": "Starlight Canyon", "floors": 15, "timeTrial": 15, "wipeout": 15, "spheda": 15, "fishing": 0},
+      {"chapter": 4, "area": "Ocean's Roar Cave", "floors": 20, "timeTrial": 20, "wipeout": 20, "spheda": 15, "fishing": 15},
+      {"chapter": 5, "area": "Mount Gundor", "floors": 18, "timeTrial": 18, "wipeout": 18, "spheda": 18, "fishing": 0},
+      {"chapter": 6, "area": "Ixion (Train)", "floors": 10, "timeTrial": 10, "wipeout": 10, "spheda": 0, "fishing": 0},
+      {"chapter": 7, "area": "Moon Flower Palace", "floors": 15, "timeTrial": 15, "wipeout": 15, "spheda": 15, "fishing": 0},
+      {"chapter": 8, "area": "Zelmite Mines (Post-Game)", "floors": 19, "timeTrial": 19, "wipeout": 19, "spheda": 19, "fishing": 19}
+    ],
+    "mayorNeedShop": {
+      "currency": "1 Medal = 1 Need Point",
+      "keyRewards": {
+        "50": "Scrap Metal ×100",
+        "80": "Moon Stone ×5",
+        "100": "Sun Stone ×5",
+        "150": "Ridepod Part: Jet Hover",
+        "200": "Ridepod Part: Sun & Moon Armor",
+        "300": "Ultimate Weapon Blueprint (Max)",
+        "300": "Ultimate Weapon Blueprint (Monica)",
+        "500": "Cosmetic Costumes"
+      }
+    },
+    "timeTrialTips": {
+      "essentials": ["Ridepod Propeller (Ch.3)", "Ridepod Jet Hover (Ch.5)", "Donny Support (Ch.2 Photo Lv.3)"],
+      "tactics": ["Skip ABS/Gold Pickup", "Memorize Floor Seeds", "One-Shot Weapons", "Save State Per Floor"],
+      "hardestFloors": "Ch.1 Underground Channel (Tight Times, Mimic RNG)"
+    }
+  }
+}

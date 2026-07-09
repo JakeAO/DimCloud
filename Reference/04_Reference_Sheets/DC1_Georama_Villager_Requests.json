@@ -1,0 +1,88 @@
+{
+  "villages": [
+    {
+      "name": "Norune Village",
+      "chapter": 1,
+      "atlaTotal": 45,
+      "keyRequests": {
+        "Macho Family": "Near Dungeon Entrance",
+        "Alnet": "Far from Macho Family",
+        "Claude": "Next to Alnet",
+        "Laura": "Far from Mayor",
+        "Paige": "Near Pond",
+        "Gaffer": "Near Another House",
+        "Hag": "In Front of Dran's Windmill",
+        "Toan": "Tall Steps Away from Mayor"
+      },
+      "reward100Percent": "Spin Slash (Toan Skill)"
+    },
+    {
+      "name": "Matataki Village",
+      "chapter": 2,
+      "atlaTotal": 52,
+      "keyRequests": {
+        "Pao": "Near Peanut Pond (Forest Entrance)",
+        "Cacao": "Surrounded by 4+ Trees",
+        "Bunbuku": "Near Watermill",
+        "Kye & Momo": "Near Wise Owl Shop",
+        "Baron": "Near Waterfall (Sound of Water)",
+        "Couscous": "On Raised Earth",
+        "Gob": "Near Momo",
+        "Mushroom Couple": "On Raised Earth",
+        "Wise Owl Shop": "In Front of Goro's House"
+      },
+      "reward100Percent": "Powerup Powder + Battle Axe (Goro → Inferno Path)"
+    },
+    {
+      "name": "Queens",
+      "chapter": 3,
+      "atlaTotal": 38,
+      "keyRequests": {
+        "Mayor": "Near Center",
+        "Ship Captain": "Near Water",
+        "Fisherman": "Near Dock",
+        "Inn Keeper": "Near Mayor",
+        "Weapon Shop": "Near Center",
+        "Item Shop": "Near Weapon Shop",
+        "Ruby's House": "Near Water"
+      },
+      "reward100Percent": "Witch Parfait (Ruby Defense +5-7)"
+    },
+    {
+      "name": "Muska Lacka",
+      "chapter": 4,
+      "atlaTotal": 65,
+      "keyRequests": {
+        "Ungaga": "Near Temple Entrance",
+        "Chief": "Center of Village",
+        "Sun/Moon Temple": "Aligned with Sun/Moon Stones",
+        "Villagers": "Near Water Sources"
+      },
+      "reward100Percent": "Frill Neck / Sandstorm (Ungaga Items)"
+    },
+    {
+      "name": "Brownboo Village",
+      "chapter": 5,
+      "atlaTotal": 50,
+      "keyRequests": {
+        "Osmond": "High Ground",
+        "Moon People": "Near Each Other",
+        "Sun Giant Parts": "Assembled in Center"
+      },
+      "reward100Percent": "Sun & Moon Badge (Osmond)"
+    },
+    {
+      "name": "Yellow Drops (Moon City)",
+      "chapter": 5,
+      "atlaTotal": 0,
+      "note": "Story progression; No Georama rebuild"
+    }
+  ],
+  "georamaMechanics": {
+    "gridSize": "Variable per Village",
+    "placementRules": ["No Overlap", "Valid Terrain", "Rotation 90°", "Building Assembly Required"],
+    "completionTracks": ["Collection %", "Reconstruction %", "Request %"],
+    "unlockNextDungeon": "Collection 100% + Reconstruction 100%",
+    "requestReward": "Request 100% = Unique Reward (Skill/Weapon/Stat Item)"
+  }
+}

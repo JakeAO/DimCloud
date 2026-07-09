@@ -1,0 +1,69 @@
+{
+  "fishBreeding": {
+    "tankTypes": {
+      "RecTank": "Feed fish; Enter Finny Frenzy races",
+      "BreedingTank": "1 Male + 1 Female → Offspring (Better stats, new species)",
+      "BattleTank": "Up to 4 Fish fight → Stat gains (Risk: Death)"
+    },
+    "statFeeding": {
+      "Gender": "Carrot (Switch)",
+      "Tenacity": "Prickly / Battan",
+      "Endurance": "Mimi / Petite Fish",
+      "Boost": "Carrot / Minon",
+      "Stamina": "Evy / Potato Cake",
+      "Battle": "Battle Tank Participation"
+    },
+    "breedingChart": [
+      {"parentA": "Baku Baku", "parentB": "Bobo", "offspring": "Gobbler"},
+      {"parentA": "Baku Baku", "parentB": "Bon", "offspring": "Priscleen"},
+      {"parentA": "Baku Baku", "parentB": "Tarton", "offspring": "Priscleen"},
+      {"parentA": "Baku Baku", "parentB": "Gummy", "offspring": "Kaji"},
+      {"parentA": "Baku Baku", "parentB": "Hama Hama", "offspring": "Kaji"},
+      {"parentA": "Baku Baku", "parentB": "Umadakara", "offspring": "Den"},
+      {"parentA": "Baku Baku", "parentB": "Mardan Garayan", "offspring": "Piccoly"},
+      {"parentA": "Baku Baku", "parentB": "Baron Garayan", "offspring": "Bobo"},
+      {"parentA": "Baron Garayan", "parentB": "Bobo", "offspring": "Tarton"},
+      {"parentA": "Baron Garayan", "parentB": "Bon", "offspring": "Heela"},
+      {"parentA": "Baron Garayan", "parentB": "Den", "offspring": "Piccoly"},
+      {"parentA": "Baron Garayan", "parentB": "Gummy", "offspring": "Hama Hama"},
+      {"parentA": "Baron Garayan", "parentB": "Mardan Garayan", "offspring": "Baku Baku"},
+      {"parentA": "Baron Garayan", "parentB": "Umadakara", "offspring": "Piccoly"},
+      {"parentA": "Mardan Garayan", "parentB": "Bobo", "offspring": "Gobbler"},
+      {"parentA": "Umadakara", "parentB": "Bon", "offspring": "Priscleen"},
+      {"parentA": "Umadakara", "parentB": "Gummy", "offspring": "Kaji"},
+      {"parentA": "Umadakara", "parentB": "Hama Hama", "offspring": "Den"}
+    ],
+    "keyFish": {
+      "Baku Baku": "Common; Base for many combos",
+      "Bobo": "Common; Pairs with Baku/Baron",
+      "Mardan Garayan": "Rare; Starlight Canyon; High stats",
+      "Baron Garayan": "Rare; Veniccio; High stats",
+      "Umadakara": "Rare; Heim Rada; High stats",
+      "Gobbler": "Strong Battle fish",
+      "Priscleen": "Balanced",
+      "Kaji": "Speed/Boost focus",
+      "Den": "Tanky",
+      "Piccoly": "High Battle",
+      "Tarton": "High Endurance",
+      "Heela": "High Tenacity"
+    },
+    "finnyFrenzy": {
+      "unlock": "Invent Aquarium (Photos: Fountain, Wooden Box, Window) → Ch. 4 Firbit Girl",
+      "tiers": ["Beginner", "Junior", "Senior", "Master"],
+      "format": "3 Heats (1st → 2nd → 3rd place) × 2 Laps Each",
+      "rewards": {
+        "AnyWin": "Lure (Olivie sells all)",
+        "JuniorCup": "Aquarium Upgrade",
+        "SeniorCup": "Rare Fish Egg",
+        "MasterCup": "Ultimate Rod Blueprint"
+      },
+      "olivieRecruit": "Win Any Finny Frenzy Race"
+    },
+    "fishingMedals": {
+      "unlock": "Ch. 2 (Sindain) → Bait Rod; Ch. 3 Lure Rod (Invent/Buy)",
+      "medalFloors": 23,
+      "targetLengths": "Per Floor; 60-100cm typical",
+      "bestBait": "Evy (Universal Large Fish)"
+    }
+  }
+}

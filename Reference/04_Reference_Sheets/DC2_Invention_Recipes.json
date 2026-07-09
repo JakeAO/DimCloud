@@ -1,0 +1,56 @@
+{
+  "inventions": {
+    "total": 130,
+    "categories": {
+      "RidepodParts": 35,
+      "Weapons": 20,
+      "Items": 30,
+      "GeoramaBlueprints": 15,
+      "FishingRods": 10,
+      "Consumables": 20
+    },
+    "pipeline": "Photo (×3) → Idea Card → Materials → Assemble"
+  },
+  "photography": {
+    "albumCapacity": 30,
+    "ideaBookCapacity": "Unlimited",
+    "photoPoints": {"regular": 2, "scoop": 5},
+    "maxPoints": 750,
+    "donnyRewards": {
+      "level1": {"points": 100, "reward": "Stamina Drink ×3"},
+      "level2": {"points": 200, "reward": "Repair Powder ×5"},
+      "level3": {"points": 300, "reward": "Donny Joins Party (Map Reveal)"},
+      "level4": {"points": 400, "reward": "Mighty Healing ×3"},
+      "level5": {"points": 500, "reward": "Pocket (+10 Slots)"},
+      "level6": {"points": 600, "reward": "Gourd (+1 Thirst)"},
+      "level7": {"points": 700, "reward": "Moon Badge (Transform Duration++)"},
+      "level8": {"points": 750, "reward": "Sun Badge (Transform Atk/Def++)"}
+    }
+  },
+  "scoopPhotos": {
+    "missableMajor": [
+      {"name": "Blackstone One Interior", "chapter": 6, "condition": "Only Ch 6-7"},
+      {"name": "Fire House", "chapter": 6, "condition": "Inside Blackstone One"},
+      {"name": "Coal", "chapter": 6, "condition": "Inside Blackstone One"},
+      {"name": "Geyser", "location": "Heim Rada", "condition": "Don't seal all with Hardened Mud"}
+    ],
+    "futureDependent": "Future town buildings appear after Past 100%"
+  },
+  "keyInventions": {
+    "EnergyPack": {"photos": ["Milk Can", "Pipe", "Belt"], "materials": ["Scrap Metal ×20", "Thick Hide ×1", "Copper ×2"], "result": "Steve Fuel +100"},
+    "RollerSkates": {"photos": ["Skates", "Wheel", "Metal"], "result": "Steve Legs 1.5x Speed"},
+    "Propeller": {"photos": ["Propeller", "Fan", "Motor"], "result": "Steve Legs 2.0x + Air"},
+    "JetHover": {"photos": ["Jet Engine", "Hovercraft", "Turbine"], "result": "Steve Legs 2.5x + Air + Water"},
+    "Buggy": {"photos": ["Buggy", "Engine", "Tire"], "result": "Steve Legs 3.0x All Terrain"},
+    "SunMoonArmor": {"photos": ["Sun", "Moon", "Armor"], "materials": ["Light ×50", "Holy ×50", "Sticky Clay ×50"], "result": "Best Steve Body"},
+    "Aquarium": {"photos": ["Fountain", "Wooden Box", "Window"], "result": "Fish Breeding/Frenzy"},
+    "FridgeWeapon": {"photos": ["Refrigerator", "Ice", "Milk"], "result": "Max Weapon (High Chill)"},
+    "StarSword": {"photos": ["Star", "Sword", "Jewel"], "result": "Monica Sword (High Holy)"}
+  },
+  "materialTiers": {
+    "Basic": {"chapters": "1-2", "items": ["Wood", "Stone", "Cloth", "Scrap Metal"]},
+    "Intermediate": {"chapters": "3-4", "items": ["Gems", "Gears", "Quality Wood", "Copper", "Silver"]},
+    "Advanced": {"chapters": "5-6", "items": ["Moon Stone", "Sun Stone", "Luna Stone", "Stardust", "High-Grade Gears"]},
+    "Special": {"sources": ["Story", "Inventions", "Finny Frenzy"], "items": ["Atlamillia Shard", "Paznos Part", "Ultimate Alloy"]}
+  }
+}

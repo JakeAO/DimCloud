@@ -1,0 +1,79 @@
+{
+  "georamaParts": {
+    "categories": {
+      "Houses": {
+        "description": "Backbone of construction; house NPCs; provide Population + CP",
+        "examples": ["Wooden House", "Stone House", "Chinese Stand", "Firbit Home", "Shop House", "Factory Housing"],
+        "cpRange": "50-200",
+        "polynRange": "500-5000",
+        "attachmentSlots": 5,
+        "population": 1-5,
+        "materialCosts": {"Wood": 10-50, "Stone": 5-30, "Cloth": 5-20, "Gems": 0-5}
+      },
+      "HouseAttachments": {
+        "description": "Attach to houses only (walls/roof); cheap CP density",
+        "examples": ["Chimney", "Window", "Fence", "Sign", "Garden", "Lamp", "Satellite Dish"],
+        "cpRange": "5-20",
+        "polynRange": "50-500",
+        "maxPerHouse": 5,
+        "materialCosts": {"Wood": 2-10, "Metal": 1-5, "Cloth": 1-5}
+      },
+      "Nature": {
+        "description": "Trees, water, terrain; some required for conditions",
+        "examples": ["Oak Tree", "Palm Tree", "Glowing Tree", "River", "Pond", "Hill (1-3 Height)", "Waterfall", "Flower Bed"],
+        "cpRange": "10-100",
+        "polynRange": "100-2000",
+        "special": ["River connects for 'River' conditions", "Glowing Tree = High CP", "Hills for 'Raised Ground' requests"]
+      },
+      "Infrastructure": {
+        "description": "Functional structures; enable building on water, connect areas",
+        "examples": ["Bridge", "Pier (Build on Water)", "Stairs", "Block (1×1×1 to 4×4×4)", "Generator", "Windmill", "Waterwheel"],
+        "cpRange": "20-150",
+        "polynRange": "200-3000",
+        "materialCosts": {"Metal": 10-50, "Wood": 10-30, "Gears": 5-20}
+      },
+      "Functional": {
+        "description": "High CP; unlock Future changes; shops/services",
+        "examples": ["Shop (Weapon/Item/Material)", "Windmill", "Waterwheel", "Generator", "Factory", "Boat", "Lighthouse", "Observatory", "Railway Station"],
+        "cpRange": "100-500",
+        "polynRange": "2000-10000",
+        "materialCosts": {"Metal": 50-200, "Gears": 20-100, "Gems": 10-50, "Special": "Moon/Sun Stone"}
+      },
+      "Unique": {
+        "description": "Story-specific; high impact",
+        "examples": ["Sun Giant Parts", "Moon Orb Pedestal", "Atlamillia Shrine", "Paznos Launchpad", "Time Machine Parts"],
+        "cpRange": "500+",
+        "polynRange": "10000+",
+        "source": "Story Progression + Rare Materials"
+      }
+    },
+    "areaMechanics": {
+      "Palm Brinks": {"tutorial": true, "futureChests": 3},
+      "Sindain": {"riverReconstruction": true, "piersRequired": false, "futureChests": 5},
+      "Balance Valley": {"sphedaUnlock": true, "futureChests": 4},
+      "Veniccio": {"piersRequired": true, "waterBuilding": true, "futureChests": 5},
+      "Heim Rada": {"fireSquall": true, "fireproofOnly": true, "futureChests": 4},
+      "Moon Flower Palace": {"noGeorama": true, "finalDungeon": true}
+    },
+    "conditions": {
+      "types": [
+        "Population ≥ X",
+        "Culture Points ≥ Y",
+        "Build Specific: Factory / Windmill / River Length / Tree Type",
+        "Place NPC in Specific House",
+        "NPC Adjacency: Near X / Away From Y",
+        "Terrain: Hill / Waterfall / Garden",
+        "Future-Dependent: Future Factory Active / Future Tree Mature"
+      ],
+      "rewards": {
+        "perCondition": "Medal / Material / Polyn / Blueprint",
+        "all10": "Future Chest Key (HP/Def Item) + Unique Blueprint + Title"
+      }
+    },
+    "economy": {
+      "polynSources": ["Enemy Drops", "Chests", "Sell Items", "Future Shops"],
+      "materialSources": ["Shops (Expand per Chapter)", "Dungeon Drops", "Inventions", "Georama Future Shops", "Fishing Byproducts"],
+      "culturePoints": "Σ(Piece CP) — No Upkeep Cost"
+    }
+  }
+}

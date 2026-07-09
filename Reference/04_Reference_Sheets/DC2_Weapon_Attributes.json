@@ -1,0 +1,70 @@
+{
+  "weaponAttributes": {
+    "Attack": "Base Damage",
+    "Durability": "Max WHP / Decay Rate",
+    "Flame": "Fire Damage",
+    "Chill": "Ice Damage",
+    "Lightning": "Lightning Damage",
+    "Cyclone": "Wind Damage (vs Flying)",
+    "Smash": "vs Armored (Turtle, Golem)",
+    "Exorcism": "vs Undead",
+    "Beast": "vs Beasts",
+    "Scale": "vs Dragons/Reptiles"
+  },
+  "synthesisPointSystem": {
+    "baseSPPerLevel": {"early": 3, "mid": 4, "late": 5},
+    "supportBonuses": {
+      "Gerald": {"target": "Max Guns", "spBonus": 1},
+      "Milane": {"target": "Monica Swords", "spBonus": 1},
+      "Lin": {"target": "Monica Armbands", "spBonus": 1, "temporary": true},
+      "Adel": {"target": "Unequipped Weapons", "effect": "WHP_Decay_Slow"}
+    },
+    "detachCost": 0,
+    "spectrumizeCost": "equals_item_synth_cost"
+  },
+  "spectrumize": {
+    "crystals": {"cost": 1, "statTransfer": "100% listed value"},
+    "items": {"cost": 1.5, "statTransfer": "varies"},
+    "weapons_under_5": {"cost": "weapon_level", "warning": "UNSTABLE ~20% transfer"},
+    "weapons_5_plus": {"cost": "weapon_level", "transferRate": 0.6, "keepsAbilities": true},
+    "ridepodParts": {"cost": 3.10, "transferRate": 0.6}
+  },
+  "buildUp": {
+    "resetsToLevel1": true,
+    "keepsAllAbsorbedStats": true,
+    "visibleTreeInMenu": true,
+    "branchingPaths": true,
+    "requirementsShownAsRedStats": true
+  },
+  "durability": {
+    "whpLossPerHit": 1,
+    "whpLossPerShot": 1,
+    "whpLossPerCharge": 2,
+    "breakResult": "Weapon Kept; ABS Reduced ~10%",
+    "repairItems": {
+      "Repair Powder": 50,
+      "Gun Repair Powder": 50,
+      "Armband Repair Powder": 50,
+      "Ridepod Repair": 100
+    }
+  },
+  "characterLoadouts": {
+    "Max": {
+      "melee": ["Wrench", "Hammer", "Sword", "Drill"],
+      "ranged": ["Gun", "Cannon", "Laser", "Missile"],
+      "ridepod": true
+    },
+    "Monica": {
+      "melee": ["Sword", "Katana"],
+      "ranged": ["Armband"],
+      "monsterForms": 12
+    }
+  },
+  "ultimatePaths": {
+    "MaxWrench": "Battle Wrench → True Battle Wrench → Drill/Thunder/Flame → Inferno",
+    "MaxGun": "Handgun → Machine Gun → Laser → Ultimate Cannon",
+    "MonicaSword": "Chronicle → Atlamillia / Sword of Zeus / Dark Cloud Sword",
+    "MonicaArmband": "Himarra → Mandora/Scarecrow → Ultimate Armband",
+    "Ridepod": "Sun & Moon Armor + Jet Hover + Ultimate Cannon"
+  }
+}
