@@ -1,17 +1,5 @@
 # Dark Cloud Series — Design Philosophy Synthesis
 
-## Akihiro Hino's Design Evolution
-
-### The Level-5 Way (From Interviews 2003–2018)
-
-> **"I never stick to the project document. You need to put in elements that gamers think are fun, regardless of whether they showed up in the spec sheet."** — Hino, Polygon 2013
-
-> **"Dark Cloud 1 was a tech demo we turned into a game. Dark Cloud 2 was the game we wanted to make."** — Hino, Famitsu 2011
-
-> **"We didn't carry over code. We threw away the engine, the tools, everything. But the *experience* of making DC1 taught us what matters."** — Hino, RPGFan 2003
-
----
-
 ## Core Design Pillars (Extracted from Both Games)
 
 ### 1. **Visible Causality: Action → World Change**
@@ -131,26 +119,18 @@ MINIGAME → CURRENCY/RESOURCE → CORE UPGRADE → MINIGAME DEEPENS
 - **Legacy Forge**: Sacrifice Maxed Weapon → Permanent Trait Unlock for All Weapons
 
 ### Pillar 2: **Causal Georama (Multi-Era)**
-- **4 Layers**: Ancient Past / Recent Past / Present / Future
+- **3 Layers**: Distant Past / Present / Distant Future
 - **Player Edits Any Layer** → Ripples to Others
-- **Conditions** = Logic Puzzles (Population, Resources, Defense, Culture)
+- **Conditions** = Logic Puzzles (Population, Resources, Terrain, Culture)
 - **Blueprints** = Parametric (Size, Style, Function Slots)
-- **Community**: Share Blueprints; Vote on "Canon" Towns
 
-### Pillar 3: **Companion Ecosystem**
-- **1 Main + 1 Vehicle/Mech + 1 Transform/Shapeshift + 3 Support NPCs**
-- Each = Independent Progression + Shared Resource Pool
-- **Support NPCs** = Skill Tree Nodes (Recruit → Place in Town → Buff)
-- **Vehicle** = Modular Platform (Legs/Body/Arms/Weapons = Skill Trees)
-- **Transform** = Monster Forms (Diplomacy + Traversal + Combat)
-
-### Pillar 4: **Mastery-Based Permanent Progression**
+### Pillar 3: **Mastery-Based Permanent Progression**
 - **No RNG Stat Items**
 - **Stat Increases** = World Completion % (Georama, Dungeon, Bestiary, Crafting)
 - **Inventory/QoL** = System Mastery Tiers (Photo Lv, Fish Lv, Medal Count, Invention %)
 - **Respec Always Available** (Cost scales)
 
-### Pillar 5: **Procedural Seeds as Content**
+### Pillar 4: **Procedural Seeds as Content**
 - **Dungeon Seeds** = Items (Find/Buy/Share)
 - **Seed = Fixed Layout + Enemy Table + Reward Table**
 - **Daily/Weekly Seeds** = Leaderboards
@@ -164,26 +144,6 @@ MINIGAME → CURRENCY/RESOURCE → CORE UPGRADE → MINIGAME DEEPENS
 |-------|-------------|
 | "Fix things in front of me" | **Iterate in Engine; Don't Spec-Design** |
 | "Gamers think are fun" | **Playtest Weekly; Cut Unfun Systems** |
-| "Dark Cloud 1 was never right" | **Ship → Learn → Rebuild; Don't Patch Forever** |
-| "Surpass major companies' techniques" | **Custom Tech for Unique Systems (Not Generic Engine)** |
 | "Time flows morning to evening... past and future" | **Time as Spatial Dimension in World Design** |
 | "Weapon growth hierarchy chart" | **Visualize All Progression; No Hidden Knowledge** |
 | "Georama RPG" | **Construction = Core Verb, Not Side Activity** |
-
----
-
-## Successor Vision Statement
-
-> **A game where every swing of your hammer echoes in the town you build, every photo you take becomes a machine that changes the future, and every weapon you break passes its soul to the next. The world remembers your hands.**
-
----
-
-## Implementation Priority (MVP → Full)
-
-| Phase | Systems | Playable Loop |
-|-------|---------|---------------|
-| **MVP (3 Mo)** | Proc Dungeon + Weapon XP/ABS + Basic Georama (Grid + Conditions) | Dungeon → Loot → Build → Next Dungeon |
-| **Alpha (6 Mo)** | Dual Char + Ridepod/Transform + Spectrumize + Visible Trees | Full DC2 Loop (No Time Travel) |
-| **Beta (9 Mo)** | Time Travel Georama + Photo/Invention + Medals + Fishing | Full DC2 Feature Parity |
-| **1.0 (12 Mo)** | Multi-Era + Legacy Forge + Blueprint Share + Seeds | **Spiritual Successor Identity** |
-| **Post-Launch** | Mod Support + Seasonal Seeds + Community Events | **Living Platform** |

@@ -31,6 +31,11 @@ Contains **active brainstorming** — ideas that are being explored but not yet 
 
 | Decision | Status | Notes |
 |----------|--------|-------|
-| 6 Design Pillars | ✅ Locked | Weapon Legacy, Causal Georama, Companion Ecosystem, Creative Crafting, Mastery Progression, Procedural Seeds |
+| 5 Design Pillars | ✅ Locked | Weapon Legacy, Causal Georama, Creative Crafting, Mastery Progression, Procedural Seeds (Companion Ecosystem removed) |
 | Design Philosophy | ✅ Locked | 7 principles from Hino's interviews, anti-pillars identified |
 | Sets of 3 | ✅ Locked | Foundational rule: every major system offers 3 choices, phases, or sub-components |
+| 3 Protagonists | ✅ Locked | Evoker (Distant Past) / Machinist (Present) / Cyborg (Distant Future); 3 stances each; free-roam + char-lock exceptions; separate arsenals, global essences/traits. See `Locked/03_Characters.md` |
+| Companion Pillar Removed | ✅ Locked | Cut entirely. No allies/monsters/vehicles as companions. Trio hot-swap only; DC2 monster/ridepod flavor folded into stances. See `Locked/03_Characters.md` |
+| Combat Foundation | ✅ Locked | 9 weapons (1/stance), universal move kit, stance archetypes, Resonance model, Defensive 2-Option (Block/Dodge + Perfect). See `Locked/04_Combat_Foundation.md` |
+| Causal Georama | ✅ Locked | 3 era-layers, WFC generative cascade (Past→Present→Future), witness-only Future, discrete travel, puzzle/constraint-based (no sim), 3 condition + 3 blueprint axes. See `Locked/05_Causal_Georama.md` |
+| Procedural Seeds | ✅ Locked | Local deterministic seeds (Dungeon+Stage+Attempt); no share/multiplayer/parity; 3 tiers (Std/Heroic/Mythic); 3 challenges/stage from broad objective pool; Georama state drives content. See `Locked/06_Procedural_Seeds.md` |

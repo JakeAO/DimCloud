@@ -10,12 +10,12 @@ This creates meaningful choice without paralysis, consistent cognitive load acro
 
 ### Application
 - **Characters**: 3 playable protagonists
-- **Eras**: 3 time periods (Ancient Past, Recent Past, Present)
+- **Eras**: 3 time periods (Distant Past, Present, Distant Future)
 - **Combat**: 3 modes per character (Melee, Ranged, Special)
-- **Companions**: 3 slots (Mech, Transform, Support NPC)
+- **Companions**: None — Trio hot-swap (1 active hero, swap freely); monster/ridepod flavor folded into each hero's stances
 - **Progression**: 3 MVP mastery tracks (Weapon, Georama, Invention)
 - **Loops**: 3 core activities per session (Dungeon, Build, Craft)
-- **Synergies**: 3 pairwise combinations + 1 triple ("Legion" mode)
+- **Synergies**: 3 pairwise combinations + 1 triple (cross-pillar synergy)
 
 ### Design Check
 When adding a new system, ask:
@@ -24,6 +24,9 @@ When adding a new system, ask:
 3. Does it offer 3 meaningful outcomes?
 
 If yes → proceed. If no → simplify until it fits.
+
+### Scope Clarification
+Sets of 3 governs **system structure** — choices, phases, sub-components, and meaningful player decisions. It does **NOT** constrain **granular data / telemetry tracking** (e.g., per-weapon Memory metrics such as Kill Count, Perfect Block, Resonance Finisher Count). Telemetry is data, not a choice, and may be tracked at any breadth to enable varied advancement trees.
 
 ---
 
